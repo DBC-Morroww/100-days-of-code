@@ -10,10 +10,10 @@ if height >= 120:
         print("Hop aboard the rollercoaster! One adult ticket will be $8")
     elif age < 18 and age > 12:
         bill += 7
-        print("Hop aboard the rollercoaster! One adult ticket will be $7")
+        print("Hop aboard the rollercoaster! One child ticket will be $7")
     else:
         bill += 6
-        print("Hop aboard the rollercoaster! One adult ticket will be $6")
+        print("Hop aboard the rollercoaster! One junior ticket will be $6")
 
     wants_photo = input("Do you want to have a photo taken? (Y/N)")
     if wants_photo == "Y":
