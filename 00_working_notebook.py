@@ -9,14 +9,16 @@
 # print("Hello world!\nHello world!\nHello world!")
 
 # print("Hello" + " world!")
-
 # print('Hello' + ' ' + 'world!')
+
 
 # print(len(input("What is your name? ")))
 
 # name = input("What is your name? ")
 # length = len(name)
 # print(length)
+
+
 
 # a = input("a: ")
 # b = input("b: ")
@@ -25,23 +27,22 @@
 # a = b
 # b = c
 
-
 # print('a = ' + a)
 # print('b = ' + b)
 
 
 
 
+# DAY 2
+
 # print("Hello"[4])
 # print("Hello"[-1])
 
 # num_char = len(input("What is your name?"))
-
 # print("Your name has " + str(num_char) + " characters")
-
+ 
 # two_digit_number = input("Type a two digit number: ")
 # print(int(two_digit_number[0]) + int(two_digit_number[1]))
-
 
 # PEMDAS
 # parentheses
@@ -54,13 +55,13 @@
 # L -> R
 
 
-# height = input("enter your height in m: ")
-# weight = input("enter your weight in kg: ")
-# bmi = round((float(weight)/float(height) ** 2), 2)
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+bmi = round((float(weight)/float(height) ** 2), 2)
 
-# # print(int(bmi))
-# print(
-#     f"Your height is {height}, your weight is {weight}, and your BMI is {bmi}")
+# print(int(bmi))
+print(
+    f"Your height is {height}, your weight is {weight}, and your BMI is {bmi}")
 
 # print("Welcome to the rollercoaster ride!")
 # print("You must be 120cm or taller to ride the rollercoaster.")
