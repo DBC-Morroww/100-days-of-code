@@ -55,13 +55,13 @@
 # L -> R
 
 
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-bmi = round((float(weight)/float(height) ** 2), 2)
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+# bmi = round((float(weight)/float(height) ** 2), 2)
 
-# print(int(bmi))
-print(
-    f"Your height is {height}, your weight is {weight}, and your BMI is {bmi}")
+# # print(int(bmi))
+# print(
+#     f"Your height is {height}, your weight is {weight}, and your BMI is {bmi}")
 
 # print("Welcome to the rollercoaster ride!")
 # print("You must be 120cm or taller to ride the rollercoaster.")
