@@ -78,20 +78,30 @@
 # else:
 #     print("This is an odd number.")
 
-print("Welcome to the rollercoaster ride!")
-print("You must be 120cm or taller to ride the rollercoaster.")
-height = int(input("How tall are you (cm)?"))
+# print("Welcome to the rollercoaster ride!")
+# print("You must be 120cm or taller to ride the rollercoaster.")
+# height = int(input("How tall are you (cm)?"))
+# bill = 0
 
-if height >= 120:
-    age = int(input("How old are you? "))
-    if age >= 18:
-        print("Hop aboard the rollercoaster! That will be $8")
-    elif age < 18 and age > 12:
-        print("Hop aboard the rollercoaster! That will be $7")
-    else:
-        print("Hop aboard the rollercoaster! That will be $6")
-else:
-    print("Sorry, you are not tall enough to ride.")
+# if height >= 120:
+#     age = int(input("How old are you? "))
+#     if age >= 18:
+#         bill += 8
+#         print("Hop aboard the rollercoaster! That will be $8")
+#     elif age < 18 and age > 12:
+#         bill += 7
+#         print("Hop aboard the rollercoaster! That will be $7")
+#     else:
+#         bill += 6
+#         print("Hop aboard the rollercoaster! That will be $6")
+    
+#     photo = input("Do you want a photo taken? Answer Y or N: ")
+#     if photo == "Y":
+#         bill += 3
+    
+#     print(f"your final bill is {bill}")
+# else:
+#     print("Sorry, you are not tall enough to ride.")
 
 
 # year = int(input("Which year do you want to check? "))
