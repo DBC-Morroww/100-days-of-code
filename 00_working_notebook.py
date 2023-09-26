@@ -188,12 +188,70 @@
 # else:
 #     print(f"You selected {user_input}, the coin shows Tails")	
 
-states_of_america = ["Delaware", "Pennsylvania", "etc" ]
+# states_of_america = ["Delaware", "Pennsylvania", "etc" ]
 
-states_of_america.append("Texas")
+# states_of_america.append("Texas")
 
-print(states_of_america)
+# print(states_of_america)
 
-states_of_america.extend(["washington", "Nevada"])
+# states_of_america.extend(["washington", "Nevada"])
 
-print(states_of_america)
+# print(states_of_america)
+
+# dirty_dozen = ["strawberries", "spinach", "kale", "nectarines", "apples", "grapes", "peaches", "cherries", "pears", "tomatoes", "celery", "potatoes"]
+
+# fruits = ["strawberries", "nectarines", "apples", "grapes", "peaches", "cherries", "pears"]
+# vegetables = ["spinach", "kale", "tomatoes", "celery", "potatoes"]
+
+# dirty_dozen = [fruits, vegetables]
+
+# print(dirty_dozen[1][1])
+
+# row1 = ["⬜️","️⬜️","️⬜️"]
+# row2 = ["⬜️","⬜️","️⬜️"]
+# row3 = ["⬜️️","⬜️️","⬜️️"]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("Where do you want to put the treasure? ")
+
+
+# vertical = int(position[0])
+# horizontal = int(position[1])
+
+# map[horizontal - 1][vertical - 1] = 'X'
+
+# print(f"{row1}\n{row2}\n{row3}")
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+user_choice = (input("Do you want to choose rock, paper or scissors? \n")).lower()
+
+print(f"you chose {user_choice}")
+
+print(type(user_choice))
+
