@@ -1,3 +1,5 @@
+# emulated buzzfeed love calculator using count and lower functions
+
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")

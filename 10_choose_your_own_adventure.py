@@ -1,3 +1,5 @@
+# A simple choose your own adventure game, using ascii art and nested if/elifs
+
 print('''
 *******************************************************************************
           |                   |                  |                     |

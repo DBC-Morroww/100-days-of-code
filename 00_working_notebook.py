@@ -169,3 +169,31 @@
 #     price += 1
 
 # print(f"Your final bill is ${price}")
+
+
+# import random
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+
+# random_float = random.random() * 5
+
+# love_score = random.randint(1, 100)
+# print(f"Your love score is {love_score}")
+
+# import random
+# user_input = input("Please select heads or tails: ")
+# pc_output = random.randint(0,1)
+# if pc_output == 1:
+#     print(f"You selected {user_input}, the coin shows Heads")
+# else:
+#     print(f"You selected {user_input}, the coin shows Tails")	
+
+states_of_america = ["Delaware", "Pennsylvania", "etc" ]
+
+states_of_america.append("Texas")
+
+print(states_of_america)
+
+states_of_america.extend(["washington", "Nevada"])
+
+print(states_of_america)
